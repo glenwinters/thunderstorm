@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div className="app-container">
         <div className="warning-container">
-	  <p>The thunderstorms are coming!</p>
+          <p>The thunderstorms are coming!</p>
         </div>
       </div>
     );
