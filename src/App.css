@@ -9,9 +9,18 @@
 
 .warning-container {
   align-items: center;
-  border: solid 4px red;
+  border: solid 1px red;
+  border-radius: 10px;
   display: flex;
   height: 50px;
   margin: 12px;
   padding: 12px;
+  transition: all 0.4s linear;
+  transition-property: border, border-radius, background-color;
+}
+
+.warning-container:hover {
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 20px;
 }
