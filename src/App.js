@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import ThunderstormWarning from './ThunderstormWarning';
 
 class App extends Component {
   render() {
     return (
       <div className="app-container">
-        <div className="warning-container">
-          <p>The thunderstorms are coming!</p>
-        </div>
+        <ThunderstormWarning />
       </div>
     );
   }
